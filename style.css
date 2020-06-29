@@ -48,8 +48,30 @@ a {
     margin-top: 70px;
     text-align: justify;
     padding: 5px;
-    width: 500px;
+    
+    overflow: hidden;
+    width: 45%;
+    border: solid palevioletred 1px;
+    border-radius: 7px;
+    background-color: pink;
+}
+
+#div-2 {
+    margin-left: 10px;
+    margin-top: 70px;
+    width: 45%;
+    text-align: justify;
+    display: inline-block;
+    padding: 5px;
     border: solid palevioletred 1px;
     display: block;
     border-radius: 7px;
+    background-color: pink;
+}
+.img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
 }
