@@ -1,0 +1,231 @@
+.main-header {
+    background-color: pink;
+}
+
+h1 {
+    float: left;
+    padding-top: -40px;
+    margin-left: 10px;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    float: right;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+    padding: 7px;
+    border: solid 1px #ffffff;
+    border-radius: 8px;
+    background-color: purple;
+    font-style: italic;
+}
+
+nav ul li:hover {
+    background-color: chartreuse;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#parent {
+    /* margin: 40px 10px 40px 10px; */
+    text-align: justify;
+    padding: 5px;
+    /* float: left; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* overflow: hidden; */
+    /* width: 45%; */
+    border: solid palevioletred 1px;
+    border-radius: 7px;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+#parent div{
+    flex-wrap: wrap;
+}
+
+#parent article {
+    flex-wrap: wrap;
+}
+
+.second-header {
+    text-align: center;
+}
+
+#div-2 {
+    margin: 40px 10px 40px 10px;
+    /* width: 50%; */
+    text-align: justify;
+    /* float: right; */
+    padding: 5px;
+    justify-content: space-between;
+    border: solid palevioletred 1px;
+    display: flex;
+    border-radius: 7px;
+    background-color: pink;
+    flex-basis: 33%;
+
+}
+
+#div-1 {
+    margin: 40px 10px 40px 10px;
+    /* width: 50%; */
+    text-align: justify;
+    /* float: right; */
+    padding: 5px;
+    justify-content: space-between;
+    border: solid palevioletred 1px;
+    display: flex;
+    border-radius: 7px;
+    background-color: pink; 
+    flex-basis: 33%;
+
+}
+.img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    border-radius: 7px;
+    /* position: absolute; */
+}
+
+.article-parent {
+    clear: both;
+}
+
+#second-list {
+    /* margin: 40px 10px 40px 10px;
+
+    text-decoration: none; */
+    /* list-style: none; */
+    /* border: 1px solid palevioletred; */
+    /* height: 200px;
+    width: 200px; */
+    /* justify-content: space-between;
+    text-align: justify;
+    background-color: pink;
+    border-radius: 5px; */
+    margin: 40px 10px 40px 10px;
+    /* width: 50%; */
+    text-align: justify;
+    /* float: right; */
+    padding: 5px;
+    justify-content: space-between;
+    border: solid palevioletred 1px;
+    display: flex;
+    border-radius: 7px;
+    background-color: pink; 
+    flex-basis: 25%;
+}
+
+.ol-list {
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+.table-parent {
+    display: flex;
+    /* border: 1px solid black; */
+    flex-basis: 20%;
+    justify-content: space-between;
+    border: 1px solid palevioletred;
+    padding-bottom: 1px;
+
+}
+
+.table-h1 {
+    border-right: 1px solid palevioletred;
+    padding: 0 0 20px 90px;
+}
+
+.form-div {
+    border-right: 1px solid palevioletred;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+  }
+
+  input[type=text], select  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+    }
+
+   .date {
+    padding-top: 20px;
+   }
+
+
+    .select-verse {
+        padding-right: 30px;
+    }
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-top: 50px;
+      }
+
+      @media only screen and (max-width: 400px) {
+          nav, ul, li {
+            flex-basis: 100%;
+                      
+          }
+      }
+
+      @media only screen and (max-width: 750px) {
+
+      }
+
+      @media only screen and (min-width: 750px) {
+
+
+
