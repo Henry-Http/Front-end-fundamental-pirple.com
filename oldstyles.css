@@ -229,3 +229,227 @@ input[type=submit] {
 
 
 
+/* second trial of styling with flexbox */
+}
+
+.main-header {
+    background-color: royalblue;
+    display: flex;
+
+    
+}
+
+#main-body div {
+    display: flex;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+}
+
+#side-bar div {
+    flex-basis: 20%;
+}
+
+
+.h1-div {
+    
+}
+
+.main-header div {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.nav-div {
+    flex-grow: 0;
+}
+ul li {
+    list-style: none;
+    float: right;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 4px;
+    color: white;
+}
+ ul li:hover {
+    color: palegreen;
+ }
+
+a {
+    text-decoration: none;
+}
+
+/* section 2 , part 1 of the body */
+
+#parent {
+    display: flex;
+    padding: 5px;
+    margin-top: 30px;
+    /* flex-basis: 100%; */
+
+}
+
+#div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-article {
+    border: 1px solid black;
+    flex-basis: 33.3%;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.image-article-2 {
+    border: 1px solid black;
+    flex-basis: 33.3%;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.image-article-3 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.image-article-3 li {
+    list-style: disc;
+
+
+}
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.article-1 {
+    
+}
+
+/* section 2 , part 2 of the body */
+
+.table-parent {
+    display: flex;
+    padding: 4px;
+}
+
+.table-parent div {
+    flex-basis: 100%;
+    padding: 12px;;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .form {
+      text-align: center;
+  }
+  input[type=text], select  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+    }
+
+    button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-top: 50px;
+      }
+
+      .more-info {
+          text-align: center;
+      }
+
+      /* media quarries */
+      @media (max-width: 400px) {
+        .main-header div {
+            flex-wrap: wrap;
+          flex-basis: 100%;
+          flex-grow: 0; 
+          padding: 0 10px;
+          
+                    
+        }
+
+        .h1-div {
+            color: white;
+        }
+
+        #parent div {
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+
+        .table-parent {
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+    }
+
+    @media only screen and (max-width: 750px) {
+        .main-header div {
+            flex-wrap: wrap;
+          flex-basis: 100%;
+          flex-grow: 0; 
+          padding: 0 10px;
+          
+                    
+        }
+
+        .h1-div {
+            color: white;
+        }
+
+        #parent div {
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+
+        .table-parent {
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+    }
+
+    @media only screen and (min-width: 750px) {
+
+    }
