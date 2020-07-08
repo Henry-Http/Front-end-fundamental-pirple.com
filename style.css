@@ -1,4 +1,4 @@
-body,html {
+body {
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,7 @@ body,html {
     background-color: #e7f1f7;
     display: inline-block;
     width: 100%;
+    position: fixed;
 }
 
 .main-header h1{
@@ -15,14 +16,15 @@ body,html {
     padding: 0 0 0 75px;
     font-family: "Helvetica Neue", sans-serif;
     color:  rgb(0, 41, 88);
+    text-shadow: 2px 2px wheat;
 }
 
-ul{
+.main-header ul{
     float: right;
-    margin-right: 85px;
+    margin-right: 5px;
 }
 
-li {
+.main-header li {
     display: inline;
     margin-right: 63px;
     padding: 9px;
@@ -32,7 +34,7 @@ li {
     color: #223c65;
 }
 
-a {
+.main-header ul a {
     text-decoration: none;
     color: black;
 }
@@ -61,11 +63,14 @@ header {
     text-align: right;
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
     /* font-size: 40px; */
+    text-shadow: 2px 2px black;
 }
 
 /* Main content */
 .container {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
 }
 .bible-verse {
     display: inline-block;
@@ -78,4 +83,291 @@ header {
     border-left: 4px solid #0088bd;
     border-radius: 4px;
     
+}
+
+/* Images */
+
+.images {
+    display: inline-block;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 20px 30px ;
+    padding: 20px 5px;
+    width: 60%;
+    text-align: center;
+}
+.images img {
+    border-radius: 17px;
+    width: 350px;
+    height: 200px;
+    padding: 4px;
+}
+
+.section-2 {
+}
+
+.side-bar {
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 33%;
+    /* padding-top: 99px; */
+    text-align: justify;
+    /* position: relative;
+    bottom: 180px; */
+    padding-top: 0px;
+    border-left: 1px solid #223c65;
+    border-right: 1px solid #223c65;
+    border-radius: 9px;
+    margin-bottom: 80px;
+}
+
+.side-bar1 {
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.side-bar2 {
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    margin: 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #223c65;
+    padding: 30px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 8px;
+    font-family: "Catamaran GP", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+
+
+
+    /* Media Queries */
+
+@media screen and (max-width: 400px) {
+   
+    .header div {
+        padding: o;
+        margin: 0;
+    }
+    .main-header {
+        padding: o;
+        margin: 0;
+        position: unset;
+        
+    }
+
+    .main-header ul{
+        float: unset;
+        display: block;
+    }
+    
+
+    .main-header h1{
+        margin-left: 80px;
+        padding: 8px;
+        text-shadow: none;
+        text-transform: uppercase;
+        font-size: x-large;
+        float: unset;
+        
+    }
+    
+    .main-header ul{
+        text-align: center;
+
+        }
+    
+    .main-header li {
+        float: unset;
+        display: block;
+        margin-bottom: 7px;
+        /* width: 100%; */
+        border-radius: 8px;
+        background-color: #223c65;
+        color: white;
+        /* margin: 6px; */
+        
+    }
+    
+    .main-header ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .open-remark {
+        padding: 50px;
+    }
+
+    .open-remark h1 {
+        text-align: left;
+    }
+    
+
+    /* After the header */
+    .container {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bible-verse {
+        text-align: justify;
+        margin: 0;
+        padding: 20px;
+        font-size: 19px;
+        color: #808080;
+        font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+        border-left: 4px solid #0088bd;
+        border-radius: 4px;
+        
+    }
+    
+    /* Images */
+    
+    .section-2 {
+        display: block;
+    }
+     .images {
+
+        display: block;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        margin: 20px 30px ;
+        padding: 20px 5px;
+        width: unset;
+        text-align: center;
+       
+    }
+    .images img {
+        display: block;
+        border-radius: 17px;
+        width: 300px;
+        height: 150px;
+        /* padding: 4px; */
+    }
+    
+    .side-bar {
+        justify-content: center;
+        width: fit-content;
+        margin: 0 20px;
+    }
+
+    .side-bar1, .side-bar2 {
+
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 401px) {
+    .header div {
+        /* padding: o;
+        margin: 0; */
+    
+    }
+    .main-header {
+        position: unset;
+    }
+
+
+    .main-header ul {
+        text-align: center;
+        float: unset;
+        }
+    
+
+    .main-header h1{
+        float: unset;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        text-shadow: none;
+        text-transform: uppercase;
+        font-size: x-large;
+    }
+    
+    
+    .main-header li {
+        display: block;
+        text-align: center;
+        margin-bottom: 7px;
+        border-radius: 8px;
+        background-color: #223c65;
+        color: white;
+        
+    }
+    
+    .main-header ul a {
+       
+    }
+
+    .open-remark {
+        padding: 50px;
+    }
+
+    .open-remark h1 {
+        text-align: left;
+    }
+
+    .bible-verse {
+        text-align: justify;
+        margin: 0;
+        padding: 10px;
+        font-size: 19px;
+        color: #808080;
+        font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+        border-left: 4px solid #0088bd;
+        border-radius: 4px;
+        
+    }
+
+    .side-bar {
+        justify-content: center;
+        width: fit-content;
+        margin: 0 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1090px) and (min-width: 751px) {
+    .main-header {
+        position: unset;
+        text-align: center;
+    }
+
+    .main-header h1 {
+        float: unset;
+    }
+
+    .main-header ul {
+        text-align: center;
+        float: unset;
+
+    }
+    
+    .main-header li {
+    }
+
+
+    .section-2  {
+    }
+
+    
+    .images {
+      padding: unset;
+      margin: unset;
+    }
+
+    .images {
+    }
 }

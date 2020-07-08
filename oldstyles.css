@@ -453,3 +453,124 @@ input[type=submit] {
     @media only screen and (min-width: 750px) {
 
     }
+
+
+
+    /* Main footer */
+    /* Footer */
+
+.footer {
+    background-color: #223c65;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+
+.footer div {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 8px;
+    font-family: "Catamaran GP", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+
+.footer li {
+    padding: 5px;
+    margin-left: 40px;
+}
+
+.footer-list li:hover {
+    color:black;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.footer-list ul a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.footer-needs {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-left: 40x;
+    border-right: 1px solid white;
+    
+    
+}
+
+.footer-list {
+    /* border: 1px solid red; */
+    border-right: 1px solid white;
+}
+
+.footer-list p {
+    text-align: center;
+}
+
+.footer-needs ul {
+    text-decoration: none;    
+}
+
+.footer-needs li {
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+/* .footer-needs p {
+    margin: 0;
+    padding: 0;
+
+} */
+
+.contact-us {
+    
+}
+
+.faq {
+    /* border: 1px solid red; */
+    text-align: justify;
+    margin: 0x;
+    border-right: 1px solid white;
+    padding: 0;
+    }
+
+    .faq p {
+        text-align: center;
+        padding-bottom: 0;
+
+    }
+
+    .faq li {
+        list-style: none;
+        margin: 0;
+
+    }
+
+    .social {
+        /* border: 1px solid red; */
+
+    }
+
+    .social li {
+        list-style: none;
+    }
+
+    .social p {
+        text-align: center;
+    }
+
+    .social a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+
+    .social li:hover {
+        color:black;
+    background-color: white;
+    border-radius: 4px;
+}
